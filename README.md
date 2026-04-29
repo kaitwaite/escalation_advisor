@@ -1,4 +1,4 @@
-# Escalation Advisor
+# 🚨 Escalation Advisor
 
 > Should you handle it yourself, escalate to your manager, or go higher? Get a clear recommendation in under 60 seconds.
 
