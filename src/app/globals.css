@@ -1,0 +1,32 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --pine:    #1a2421;
+  --fern:    #2E4A3E;
+  --sage:    #536B5E;
+  --bone:    #FAF8F5;
+  --linen:   #F0EDE8;
+  --canvas:  #E4DFD8;
+  --mustard: #C4882A;
+  --rust:    #A84832;
+  --ink:     #221F1A;
+  --mid:     #4A4238;
+  --muted:   #8A8070;
+  --radius:  3px;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-weight: 300;
+  color: var(--ink);
+  background: var(--bone);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea, input, button, select {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
